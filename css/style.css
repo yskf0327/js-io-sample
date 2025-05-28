@@ -35,7 +35,7 @@ ol {
 html,
 body {
   scroll-behavior: smooth;
-  scroll-padding-top: 130px;
+  scroll-padding-top: 200px;
 }
 
 body {
@@ -199,7 +199,7 @@ nav ul li.current a {
 
 @media (width >= 768px) {
   .about__inner {
-    flex-direction: row;
+    /* flex-direction: row; */
     align-items: center;
   }
 
@@ -356,7 +356,7 @@ textarea {
 
 .form__group:has(input[type='submit']) {
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   margin-block-start: var(--s-lg);
 }
 
